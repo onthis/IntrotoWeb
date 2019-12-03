@@ -37,16 +37,15 @@ hr {
 
 
 .menu {
-    font-size: .72rem;
-    padding-right:0px;
-    padding-left:0px;
+    font-size: .8rem;
+    padding-top: 1.5%;
+    padding-left:37%;
 }
 
 .menu2 {
-    font-size: .72rem;
-    padding-top: 72.5%;
-    padding-right:5px;
-    padding-left:5px;
+    font-size: .8rem;
+    padding-top: 30.5%;
+    padding-left: 38%;
 }
 
 ul {
