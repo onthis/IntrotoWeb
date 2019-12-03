@@ -1,0 +1,163 @@
+html {
+    color: #222;
+    line-height: 1.4;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    color: #333447;
+}
+
+body {
+    margin:0px;
+}
+
+
+.full_img{
+    display:block;
+    object-fit: cover;
+    width:100%;
+    max-height: 100%;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*  GLOBAL NAV */
+
+
+.menu {
+    font-size: .72rem;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.menu2 {
+    font-size: .72rem;
+    padding-top: 72.5%;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    bottom:0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #87CEEB;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+
+/* MODULES*/
+
+.logo{
+    float:left;
+    width:25%;
+    padding: 10px 25px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'simplificasimplifica';
+
+}
+
+.overCard{
+    padding:25px;
+    width:100%;
+    position:relative;
+    top: 0;
+    height: 50%;
+    text-align: center;
+    text-shadow:
+		-2px -2px 0 #AAA,
+		2px -2px 0 #AAA,
+		-2px 2px 0 #AAA,
+		2px 2px 0 #AAA,
+    9px 7px #00BFFF;
+
+}
+
+.contactInfo{
+    float:left;
+    width:66.66%;
+}
+
+.social{
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding-right:40px;
+    padding-bottom:20px;
+}
+
+.helpful{
+    float:left;
+    width:16.66%;
+    border-left: 1px solid rgba(255,255,255,.2);
+    padding-left:25px;
+    height:100%;
+}
+
+.helpful a{
+    font-size:smaller;
+    color:white;
+    text-decoration:none;
+
+
+}
+
+.helpful a:hover{
+    color: #00ffcc;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
