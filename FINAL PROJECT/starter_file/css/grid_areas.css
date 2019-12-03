@@ -3,7 +3,7 @@
   width:96%;
   margin:auto;
   grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%; /* this makes sure your columns are not stretching around*/
-  grid-template-rows: auto 400px auto auto auto; /* you should set your row heights here rather than inside each item*/
+  grid-template-rows: 0% 57% auto auto auto; /* you should set your row heights here rather than inside each item*/
   grid-template-areas:
     ' header header header header header header '
     ' hero hero hero hero hero hero '
@@ -26,7 +26,6 @@
 
 .hero{
     grid-area: hero;
-    background-image:url(../img/myHero.png);
     background-repeat: no-repeat;
     background-position:center; /* also can be right, left, right top, etc */
     margin: auto;
@@ -58,22 +57,6 @@
     grid-area: module3;
     border-left: 1px solid #d1d1d1;
     border-right: 1px solid #d1d1d1;
-}
-
-.article_img{
-    grid-area: article_img;
-    align-self:stretch;
-    overflow:hidden;
-
-}
-
-.article_txt{
-    grid-area: article_txt;
-    background-color:#f6f6f6;
-    padding:25px;
-    border-right: 1px solid #d1d1d1;
-    overflow:auto;
-
 }
 
 .footer{

@@ -4,6 +4,12 @@ html {
 
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 
 * {
     box-sizing: border-box;
@@ -37,15 +43,15 @@ hr {
 
 
 .menu {
-    font-size: .8rem;
-    padding-top: 1.5%;
-    padding-left:37%;
+    font-size: .7rem;
+    padding-top: 0%;
+    padding-left:34%;
 }
 
 .menu2 {
-    font-size: .8rem;
-    padding-top: 30.5%;
-    padding-left: 38%;
+    font-size: .75rem;
+    padding-top: 35%;
+    padding-left: 33%;
 }
 
 ul {

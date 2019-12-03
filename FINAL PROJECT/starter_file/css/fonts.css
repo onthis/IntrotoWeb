@@ -26,7 +26,7 @@
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 10rem;
+  font-size: 9rem;
   font-family: 'futura';
 }
 
@@ -77,6 +77,11 @@ p {
 
 .left {
   text-align: left;
+}
+
+.left2 {
+  text-align: left;
+  padding-left: 9%;
 }
 
 .right {
